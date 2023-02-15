@@ -1,0 +1,85 @@
+.body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.body .projects {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 650px;
+}
+
+.project-details-container {
+    height: calc(100% - 50px);
+    width: 100%;
+    overflow: hidden scroll;
+}
+
+.project-details-container .project-details {
+    padding: 10px;
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    color: #8f8f8f;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    margin: 5px 0 5px 0;
+}
+
+.projects .project-name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.projects .project-details:hover, .projects .project-details.active {
+    background-color: #0a525e;
+    color: white;
+}
+
+.projects .project-button {
+    width: 98%;
+    height: 40px;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0a525e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.body .stations {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 650px;
+}
+
+.stations .station-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #0a525e;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 20px 10px 0;
+    align-self: flex-end;
+}
+
+.station-table {
+    display: none;
+}
+
+.station-table.active {
+    display: block;
+}

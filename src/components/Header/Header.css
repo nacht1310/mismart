@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e2e0e0;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.header img {
+    height: 100%;
+    width: auto;
+}
+
+.header .details {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.details p {
+    margin: 0;
+    text-align: right;
+}
+
+.header .language {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.language img {
+    margin-right: 5px;
+}

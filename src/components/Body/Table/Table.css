@@ -1,0 +1,48 @@
+.station_table {
+    display: none;
+}
+
+.station_table.active {
+    display: block;
+}
+
+table {
+    background-color: #e2e0e0;
+    text-align: center;
+    border-radius: 10px;
+    border: #0a525e 2px solid;
+    width: 100%;
+}
+
+table td, table th {
+    padding: 10px;
+}
+
+table td {
+    color: #8f8f8f;
+}
+
+table th {
+    color: #0a525e;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination span, .pagination div, .pagination select {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.pagination select {
+    border: none;
+    background-color: inherit;
+}
+
+.pagination button {
+    border: none;
+    background-color: inherit;
+}
